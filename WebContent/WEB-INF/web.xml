@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<display-name>SignUpForm</display-name>
+<servlet>
+<servlet-name>requestPostForm</servlet-name>
+<servlet-class>RequestPostForm</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>requestPostForm</servlet-name>
+<url-pattern>/requestPostFormURL</url-pattern>
+</servlet-mapping>
+</web-app>
